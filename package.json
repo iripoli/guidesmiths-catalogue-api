@@ -1,0 +1,27 @@
+{
+  "name": "guidesmiths-api-phone-catalogue",
+  "version": "1.0.0",
+  "description": "The api for the Phone Catalogue",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node App.js",
+    "start-dev": "nodemon App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iripoli/guidesmiths-catalogue-api.git"
+  },
+  "author": "Ignacio Ripoli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iripoli/guidesmiths-catalogue-api/issues"
+  },
+  "homepage": "https://github.com/iripoli/guidesmiths-catalogue-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.24",
+    "morgan": "^1.10.0"
+  }
+}
