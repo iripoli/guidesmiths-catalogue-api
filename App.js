@@ -22,7 +22,7 @@ app.use(cors())
 
 
 //ROUTES
-//app.use('/api/phones', phonesRouter)
+app.use('/api/phones', phonesRouter)
 app.use('/api', indexRouter)
 
 

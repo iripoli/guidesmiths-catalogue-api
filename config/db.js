@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 
-const DB_URI = process.env.DB_URI || 'mongodb+srv://iripoli:julian96@cluster0-12hh1.mongodb.net/phones?retryWrites=true&w=majority'
+const DB_URI = process.env.DB_URI || 'mongodb+srv://iripoli:julian96@cluster0-12hh1.mongodb.net/phones'
 
 mongoose
   .connect(DB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
